@@ -1,0 +1,73 @@
+/* Reset page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+}
+img {
+  width: 100%;
+}
+article {
+  max-width: 500px;
+  margin: 1rem auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Utility Class */
+.bold {
+  font-weight: 800;
+}
+
+/* Post Header styling */
+header {
+  padding: 5px 3px 10px 3px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-leftside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-leftside i {
+  position: relative;
+  top: 6px;
+}
+.header-leftside h1 {
+  font-size: 0.9rem;
+}
+.header-leftside h2 {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+/* Post Actions Section */
+.postActionsSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.25rem 1rem;
+}
+
+/* Post Caption Section */
+.postCaptionSection {
+  padding: 0rem 1rem 1rem 1rem;
+}
+.postMetaData {
+  display: block;
+  margin: 1rem 0;
+}
+.postCaptionContent {
+  display: block;
+}
